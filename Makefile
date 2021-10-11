@@ -1,4 +1,4 @@
-.PHONY: ihaskell
+.PHONY: clean ihaskell
 
 CONTAINER := programming-in-haskell
 
