@@ -2,7 +2,7 @@
 
 CONTAINER := programming-in-haskell
 
-ihaskell: TAG=latest
+ihaskell: TAG := latest
 ihaskell:
 	docker run \
 		--name $(CONTAINER) \
