@@ -11,3 +11,13 @@ running Jupyter with IHaskell kernel via
 ```bash
 make ihaskell
 ```
+
+Interactive examples are placed in separate files under the `src/`
+directory. Compilation of one particular file can be done with e.g.
+```bash
+make src/Adder.hs
+```
+or in bulk with just `make`.
+
+Compilation output (binaries) can then be found under the `bin/`
+directory and executed as usual, for instance: `./bin/Adder`.
