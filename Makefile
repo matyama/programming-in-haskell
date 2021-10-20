@@ -22,7 +22,7 @@ clean:
 
 ihaskell: TAG := latest
 ihaskell:
-	docker run \
+	@docker run \
 		--name $(CONTAINER) \
 		--rm \
 		-p 8888:8888 \
